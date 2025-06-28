@@ -13,10 +13,15 @@ Este repositório contém o código-fonte do **Microsserviço de Badges** do **[
 ## 🛠️ Stack Tecnológica
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
 ![Fiber](https://img.shields.io/badge/Fiber-000000?style=for-the-badge&logo=fiber&logoColor=white)
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088ff?style=for-the-badge&logo=github-actions&logoColor=white)
+
 ![GitHub](https://img.shields.io/badge/GitHub-fff?style=for-the-badge&logo=github&logoColor=181717)
 
 ## 📁 Estrutura de Pastas
@@ -30,7 +35,7 @@ Este repositório contém o código-fonte do **Microsserviço de Badges** do **[
 ├── services/             # Lógica de negócio (core do microsserviço)
 ├── routes/               # Registro e organização de rotas
 ├── utils/                # Funções auxiliares e helpers
-├── Dockerfile            # Dockerfile para containerização
+├── docker-compose.yml    # Docker banco de dados
 ├── go.mod                # Dependências do projeto
 └── README.md             # Documentação
 ```
